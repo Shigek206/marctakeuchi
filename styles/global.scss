@@ -1,0 +1,831 @@
+/**** GLOBAL CLASS ****/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700;);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,700,900;);
+@import url(http://fonts.googleapis.com/css?family=Nothing+You+Could+Do:400;);
+
+
+$screen-xs:	480px;
+$screen-sm:	768px;
+$screen-md:	992px;
+$screen-lg: 1200px;
+
+$base-font: 'Open Sans', sans-serif;
+$secondary-font: 'Roboto', sans-serif;
+
+$header-color: #8B4C39;
+$base-color: #3A3A38;
+$base-light: #fff;
+$base-link: #C63F17;
+
+body {
+	font-family: $base-font;
+	margin-bottom: 50px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+h1 {
+	color: $header-color;
+	font-family: $secondary-font;
+	font-size: 40px;
+	font-weight: 700;
+	margin: 0 0 40px;
+}
+
+h2 {
+	font-family: $base-font;
+	font-weight: 400;
+}
+
+h3 {
+	font-family: $base-font;
+	font-weight: 400;
+}
+
+h4 {
+	font-family: $base-font;
+	font-weight: 400;
+}
+
+p {
+	color: $base-color; 
+	font-family: $base-font;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 26px;
+	margin: 0 0 30px;
+}
+
+a {
+	color: $base-link;
+
+	&:hover {
+		color: $base-link;
+	}
+}
+
+ul {
+
+	li {
+		color: $base-link;
+		list-style: square;
+		margin: 0 0 10px;
+		text-align: left;
+
+		p {
+			color: $base-color; 
+		}
+	}
+}
+
+@media (max-width: $screen-xs) {
+	h1 {
+		font-size: 30px;
+	}
+
+	p {
+		font-size: 14px;
+	}
+}
+
+.hidden {
+	display: none;
+}
+
+/*** NAVBAR ***/
+
+.navbar-header {
+	img {
+		float: left;
+		margin: 7px 10px 0 0;
+	}
+
+	@media (max-width: $screen-sm) {
+		img {
+			margin: 15px 10px 0 0;
+		}
+	}
+
+	@media (max-width: $screen-xs) {
+
+		img {
+			margin: 10px 0 0 10px;
+			width: 12%;
+		}
+	}
+}
+
+.navbar-default {
+	background: #8B4C39;
+	border: none;
+	opacity: 0.9;
+
+	.navbar-toggle {
+		background-color: none;
+		border: none;
+
+		.icon-bar {
+			background-color: $base-light;
+		}
+
+		&:hover {
+			background: none;
+		}
+	}
+
+	.navbar-brand {
+		color: $base-light;
+		font-size: 22px;
+		letter-spacing: 2px;
+
+		&:hover {
+			color: $base-light;
+		}
+
+		@media (max-width: $screen-sm) {
+			padding: 25px 15px;
+		}
+
+		@media (max-width: $screen-xs) {
+			font-size: 18px;
+			padding: 15px;
+		}
+	}
+
+	.navbar-nav {
+		float: right; 
+
+		li {
+			margin: 0;
+			
+			a {
+				border: none;
+				box-shadow: none;
+				color: $base-light;
+				font-size: 14px;
+				font-weight: 300;
+				text-shadow: none;
+				text-transform: uppercase;
+			}
+
+			a:hover {
+				background: #c73f17;
+				color: $base-light;
+			}
+
+			&.active {
+				background: none;
+
+				a {
+					background: none;
+					box-shadow: none;
+					color: $base-light;
+				}
+
+				a:hover {
+					background: #c73f17;
+					color: $base-light;
+				}
+			}
+
+		}
+
+		@media (max-width: $screen-sm) {
+			margin: 10px 0;
+
+			li {
+				text-align: center;
+
+				a {
+					font-size: 18px;
+				}
+			}
+		}
+
+		@media (max-width: $screen-xs) {
+			float: none;
+		}
+
+	}
+}
+
+.no-op {
+	opacity: 1;
+}
+
+.transition {    
+  	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+/*** MASTHEAD ***/
+.masthead-cnt {
+	background: url('../graphics/masthead.jpg') no-repeat; 
+	background-size:cover; 
+	background-position: 50%; 
+	min-height: 700px;
+	position: relative;
+
+	.masthead-txt {
+		position: absolute;
+		left: 0;
+		right: 0;
+		text-align: center;
+		top: 300px;
+
+		h4 {
+			color: $base-light;
+			display: block;
+			font-size: 58px;
+			font-weight: 300;
+			letter-spacing: 2px;
+			margin: 0 auto;
+			margin-bottom: 30px;
+			text-transform: uppercase;
+		}
+
+		h5 {
+			color: $base-light;
+			font-size: 22px;
+			font-weight: 300;
+
+			span {
+				color: $base-link;
+			}
+		}
+
+		@media (max-width: $screen-sm) {
+			top: 150px;
+		}
+
+		@media (max-width: $screen-xs) {
+			top: 125px;
+
+			h4 {
+				font-size: 38px;
+				margin-bottom: 15px;
+			}
+		}
+	}
+
+
+	.arrow {
+		display: block;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+
+	@media (max-width: $screen-sm) {
+		min-height: 400px;
+	}
+
+	@media (max-width: $screen-xs) {
+		min-height: 300px;
+
+		.arrow {
+			margin-top: 25px;
+		}
+	}
+}
+
+.masthead-faq-cnt {
+	background: url('../graphics/faq-masthead.jpg') no-repeat;
+	background-size:cover; 
+	background-position: 50%; 
+	min-height: 450px;
+	position: relative;
+
+	@media (max-width: $screen-sm) {
+		min-height: 300px;
+	}
+
+	@media (max-width: $screen-xs) {
+		min-height: 200px;
+	}
+}
+
+.masthead-about-cnt {
+	background: url('../graphics/about-masthead.jpg') no-repeat;
+	background-size:cover; 
+	background-position: 50%; 
+	min-height: 450px;
+	position: relative;
+
+	@media (max-width: $screen-sm) {
+		min-height: 300px;
+	}
+
+	@media (max-width: $screen-xs) {
+		min-height: 200px;
+	}
+}
+
+.masthead-blog-cnt { 
+	background: url('../graphics/blog-masthead-2017.jpg') no-repeat;
+	background-size:cover; 
+	background-position: 50%; 
+	min-height: 450px;
+	position: relative;
+
+	@media (max-width: $screen-sm) {
+		min-height: 300px;
+	}
+
+	@media (max-width: $screen-xs) {
+		min-height: 200px;
+	}
+}
+
+/*** INTRO ***/
+.intro-cnt {
+	padding: 85px 0;
+	
+	h1 {
+		text-align: center;
+		text-transform: uppercase;
+		margin: 0 0 15px;
+	}
+
+	h2 {
+		text-align: center;
+		font-size: 18px;
+		font-weight: 600;
+		margin: 0 0 40px;
+		padding: 0;
+	}
+
+	h5 {
+		color: #B6B6B3;
+		font-size: 22px;
+		font-style: italic;
+	}
+
+	span {
+		display: block;
+		font-family: 'Nothing You Could Do', cursive;
+		font-size: 22px;
+		font-weight: bold;
+		padding-bottom: 10px;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 60px;
+	}
+
+	@media (max-width: $screen-xs) {
+		padding: 40px 0;
+		text-align: center;
+
+		img {
+			margin-bottom: 30px;
+		}
+	} 
+}
+
+/*** BADGES ***/
+.badges-cnt {
+	background: #C63F17;
+	padding: 30px 0;
+	position: relative; 
+
+	.arrow {
+		position: absolute;
+		left: 0;
+		margin: 0 auto;
+		right: 0;
+		top: 0;
+	}
+
+	img {
+		width: 150px;
+	}
+
+	@media (max-width: $screen-xs) {
+		display: none;
+	}
+}
+
+/*** EXPERIENCE **/
+.work-cnt {
+	background: url("../graphics/work-info-bg.gif") repeat;
+	padding: 80px 0 80px 0;
+	position: relative;
+
+	.arrow {
+		position: absolute;
+		left: 0;
+		margin: 0 auto;
+		right: 0;
+		top: 0;
+	}
+
+	.gears {
+		top: 0;
+		margin-bottom: 0;
+		left: 0;
+		position: absolute;
+		z-index: 8;
+
+		@media (max-width: $screen-xs) {
+			width: 50%;
+		}
+	}
+
+	h1 {
+		text-align: center;
+		text-transform: uppercase;
+		margin: 0 0 15px;
+		position: relative;
+		z-index: 99;
+	}
+
+	p {
+		position: relative;
+		z-index: 99;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 60px;
+		position: relative;
+		z-index: 9;
+	}
+
+	.work-info {
+		background: $base-light;
+		left: 0;
+		padding: 20px 35px;
+		top: 0; 
+
+		h5 {
+			font-size: 16px;
+			margin: 15px 0;
+
+			strong {
+				font-weight: 700;
+			}
+		}
+
+		p {
+			font-size: 14px;
+			margin: 15px 0;
+			line-height: 22px;
+		}
+
+		img {
+			display: inline-block;
+			margin: 10px 10px 0 0;
+			margin-bottom: 0;
+		}
+
+		@media (max-width: $screen-sm) {
+			margin: 0 0 40px;
+		}
+
+		@media (max-width: $screen-sm) {
+			margin: 0 0 20px;
+		}
+	}
+
+	@media (max-width: $screen-xs) {
+		padding: 75px 0 40px 0;
+		text-align: center;
+
+		.arrow {
+			display: none;
+		}
+	}
+}
+
+.work-sub-cnt {
+	padding: 80px 0;
+	position: relative;
+
+	.arrow {
+		position: absolute;
+		left: 0;
+		margin: 0 auto;
+		right: 0;
+		top: 0;
+	}
+
+	.gears2 {
+		top: 0;
+		margin-bottom: 0;
+		right: 0;
+		position: absolute;
+
+		@media (max-width: $screen-xs) {
+			width: 80%;
+		}
+	}
+
+	.gears3 {
+		bottom: 0;
+		left: 0;
+		position: absolute;
+		margin-bottom: 0;
+		z-index: -1;
+	}
+
+	.work-comp {
+		margin-bottom: 40px;
+
+		.work-info {
+			background: url('../graphics/work-info-bg.gif') repeat;
+			left: 0;
+			padding: 20px 35px;
+			top: 0;
+
+			h5 {
+				font-size: 16px;
+				margin: 15px 0;
+
+				strong {
+					font-weight: 700;
+				}
+			}
+
+			p {
+				font-size: 14px;
+				margin: 15px 0;
+				line-height: 22px; 
+			}
+
+			@media (max-width: $screen-sm) {
+				margin: 0 0 40px;
+			}
+
+			@media (max-width: $screen-xs) {
+				margin: 0 0 20px;
+			}
+		}
+	}
+
+	@media (max-width: $screen-sm) {
+		padding: 100px 0 40px 0;
+	}
+
+	@media (max-width: $screen-xs) {
+		padding: 75px 0 40px 0;
+		text-align: center;
+	}
+
+	.last-child {
+		margin-bottom: 0;
+	}
+}
+
+/*** SKILLS **/
+.skills-cnt {
+	background: url('../graphics/masthead-skills.jpg') no-repeat;
+	background-size: cover;
+	background-position: 50%;
+	padding: 80px 0;
+	position: relative;
+
+	.arrow {
+		position: absolute;
+		left: 0;
+		margin: 0 auto;
+		right: 0;
+		top: 0;
+	}
+
+	h1 {
+		margin-bottom: 15px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 60px;
+	}
+
+	ul {
+		margin: 0 0 15px;;
+		padding: 0;
+		li {
+			color: $base-color;
+			font-size: 18px;
+			font-weight: 300;
+			list-style: none;
+		}
+	}
+
+	@media (max-width: $screen-xs) {
+		padding: 75px 0 40px 0;
+		text-align: center;
+
+		ul {
+			margin: 0 0 30px;
+
+			li {
+				text-align: center;
+			}
+		}
+	}
+}
+
+/*** EDUCATION **/
+.education-cnt {
+	padding: 80px 0;
+	position: relative;
+
+	.arrow {
+		position: absolute;
+		left: 0;
+		margin: 0 auto;
+		right: 0;
+		top: 0;
+	}
+
+	h1 {
+		margin-bottom: 15px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 60px;
+	}
+
+	@media (max-width: $screen-sm) {
+		padding: 75px 0 40px 0;
+		text-align: center;
+	}
+}
+
+/*** BLOG **/
+.blog-cnt {
+	background: #8b8878;
+	padding: 80px 0;
+	position: relative;
+
+	.arrow {
+		position: absolute;
+		left: 0;
+		margin: 0 auto;
+		right: 0;
+		top: 0;
+	}
+
+	h1 {
+		color: $base-light;
+		margin-bottom: 40px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 60px;
+	}
+
+	.blog-main {
+		margin-bottom: 20px;
+
+		.blog-img {
+			img {
+				margin-bottom: 0;
+				width: 100%;
+			}
+
+			@media (max-width: $screen-xs) {
+				display: none;
+			}
+		}
+
+		.blog-txt {
+			background: url('../graphics/work-info-bg.gif') repeat;
+			min-height: 220px;
+			padding: 20px;
+
+			h4 {
+				font-weight: 600;
+				font-size: 14px;
+				margin: 0 0 10px;
+				text-transform: uppercase;
+			}
+
+			span {
+				display: block;
+				font-size: 12px;
+				margin-bottom: 15px;
+			}
+
+			p {
+				font-size: 14px;
+				margin: 0;
+			}
+		}
+	}
+
+	@media (max-width: $screen-xs) {
+		text-align: center;
+	}
+}
+
+/*** MAIN CONTENT DEFAULT **/
+.main-cnt {
+	margin: 40px 0 80px 0;
+
+	h2 {
+		font-size: 24px;
+		margin: 0 0 10px;
+	}
+
+	span {
+		display: block;
+		font-size: 14px;
+		margin: 0 0 40px;
+	}
+
+	@media (max-width: $screen-xs) {
+		margin: 40px 0 20px 0;
+		padding-bottom: 0;
+		text-align: center;
+	}
+}
+
+.blog {
+
+	h1 {
+		margin: 0 0 10px;
+	}
+}
+
+.blog-main {
+
+	span {
+		margin: 0 0 20px;
+	}
+}
+
+
+/*** FOOTER **/
+.footer-cnt {
+	background: #3A3A38;
+	padding: 15px 0;
+	height: 50px;
+	position: absolute;
+	bottom:0;
+	left: 0;
+	right: 0;
+
+	p {
+		color: $base-light;
+		font-weight: 300;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+
+	span {
+		color: $base-light;
+		font-size: 12px;
+		font-weight: 300;
+
+		a {
+			color: $base-light;
+		} 
+	}
+
+	.social {
+		text-align: right;
+
+		img {
+			margin-left: 5px;
+		}
+	}
+
+	@media (max-width: $screen-xs) {
+		text-align: center;
+		height: auto;
+
+		.social {
+			margin-top: 15px;
+			text-align: center;
+		}
+	}
+}
+
+
+
+
+
+
+

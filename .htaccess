@@ -1,0 +1,9 @@
+Options -MultiViews
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+RewriteCond %{http_host} ^marctakeuchi.com [NC]
+RewriteRule ^(.*)$ http://www.marctakeuchi.com/$1 [R=301,L] 
