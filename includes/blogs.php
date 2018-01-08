@@ -12,9 +12,9 @@
 								<a href="blog/post/career-changes-in-2016" title="Career Changes in 2016"><img src="graphics/efelle-marc-takeuchi-2016-ov.jpg"></a>
 							</div>
 							<div class="blog-txt">
-								<h4><a href="blog/post/whats-up-2017" title="What's up 2017!">What's up 2017!</a></h4>
+								<h4><a href="blog/post/happy-new-year-2018" title="Happy New Year 2018!">Happy New Year 2018!</a></h4>
 								<span>author: <a href="about" title="About Marc Takeuchi">marc takeuchi</a></span>
-								<p>What's up 2017! UPDATE (Oct 22, 2017) - Updates on what's been going on so far this year. <a href="blog/post/whats-up-2017" title="read more">read more</a></p> 
+								<p>Happy New Year! Now that 2017 is a thing of the past, I'm excited for some new adventures and changes in 2018. <a href="blog/post/happy-new-year-2018" title="read more">read more</a></p> 
 							</div>
 						</div>
 					</div>

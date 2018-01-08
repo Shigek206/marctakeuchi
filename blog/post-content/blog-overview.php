@@ -4,6 +4,10 @@
 			<div class="col-xs-12 col-sm12">
 				<h1>Blog Posts</h1>
 
+				<h2><a href="post/happy-new-year-2018" title="Happy New Year 2018!">Happy New Year 2018!</a></h2>
+				<span>Author: <a href="/about" title="About Marc Takeuchi">Marc Takeuchi</a></span>
+				<p class="blurb">Happy New Year! Now that 2017 is a thing of the past, I'm excited for some new adventures and changes in 2018. <a href="post/happy-new-year-2018" title="Happy New Year 2018!">read more &raquo;</a></p>
+
 				<h2><a href="post/whats-up-2017" title="What's up 2017!">What's up 2017!</a></h2>
 				<span>Author: <a href="/about" title="About Marc Takeuchi">Marc Takeuchi</a></span>
 				<p class="blurb">Hello 2017! Late updates on what's been going on so far this year. <a href="post/whats-up-2017" title="What's up 2017!">read more &raquo;</a></p>
