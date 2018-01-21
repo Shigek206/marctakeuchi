@@ -9,7 +9,7 @@
 							<p>Location: Seattle, WA<br />
 							Date: May 2010 to Feb 2016</p>
 
-							<p>Position: <strong>Senior Front End Developer</strong></p> 
+							<p>Position: <strong>Sr. Front-End Developer</strong></p> 
 						</div>
 					</div>
 					<div class="hidden-sm col-md-1"></div>

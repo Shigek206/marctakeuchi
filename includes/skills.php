@@ -26,7 +26,7 @@
 
 						<p><strong>Server</strong>:<br />Web Hosting, Domain, DNS, SSL, G Suite (formally Google Apps)</p>
 
-						<p><strong>Tools</strong>:<br />Adobe CC (PS, FW, DW), Sublime Text, TextMate, HeidiSQL, Sequel Pro, MS SQL, Oracle SQL Dev, Teradata SQL Assistant, Visual Source Safe, cPanel, Plesk, Beanstalk, Office 365</p>
+						<p><strong>Tools</strong>:<br />Adobe CC (PS, FW, DW), Sublime Text, Git, TextMate, HeidiSQL, Sequel Pro, MS SQL, Oracle SQL Dev, Teradata SQL Assistant, Visual Source Safe, cPanel, Plesk, Beanstalk, Office 365, Trello, Toggl, Basecamp</p>
 					</div>
 				</div>
 			</div>
