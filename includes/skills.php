@@ -12,6 +12,7 @@
 						<ul>
 							<li>Account Management</li>
 							<li>Online Marketing</li>
+							<li>Business Development</li>
 							<li>SEO Strategy</li>
 							<li>Web UX/UI Design</li>
 							<li>Information Architecture</li>
