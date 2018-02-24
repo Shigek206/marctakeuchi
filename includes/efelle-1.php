@@ -25,6 +25,8 @@
 					 <p>Manage new and existing clients projects working closely with the client in documenting requirements and collaborating on solutions while creating a long term relationship. Coordinate with the design, development, content and online marketing teams to ensure requirements and timelines are met for their project specifications. Maintain close communication through each phase of the lifecycle to ensure the project stays on track with no disruptions with the timeline.</p>
 
 					 <p>On top of my account management role, I'm still helping out with the other teams (front-end development, sales/marketing, app development, support) as-needed. It's a nice mix and keeps me on my toes!</p>
+
+					 <span>"No progress is made in your comfort zone"</span>
 			</div>
 		</div>
 	</div>

@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-8">
-				<span>&copy;1999 - 2017 <a href="mailto:marc.takeuchi@gmail.com" title="Contact Marc Takeuchi">Marc Takeuchi</a> | powered by: bamboo.digital | <a href="/" title="Home">Home</a> | <a href="about" title="About">About</a> | <a href="faq" title="FAQ">FAQ</a> | <a href="blog" title="Blog">Blog</a></span>
+				<span>&copy;1999 - 2018 <a href="mailto:marc.takeuchi@gmail.com" title="Contact Marc Takeuchi">Marc Takeuchi</a> | powered by: bamboo.digital | <a href="/" title="Home">Home</a> | <a href="about" title="About">About</a> | <a href="faq" title="FAQ">FAQ</a> | <a href="blog" title="Blog">Blog</a></span>
 			</div>
 			<div class="col-xs-12 col-sm-4">
 				<div class="social">

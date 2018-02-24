@@ -17,17 +17,20 @@
 							<li>Web UX/UI Design</li>
 							<li>Information Architecture</li>
 							<li>Front-End Web Development</li>
-							<li>Requirements Analysis</li>
 							<li>Business Systems Analysis</li>
 							<li>PSD/HTML Conversion</li>					
 						</ul>
 					</div>
 					<div class="col-xs-12 col-sm-8">
-						<p><strong>Code</strong>:<br />HTML5, CSS3, Sass, Bootstrap 3, jQuery, Javascript, ColdFusion, SQL, PHP, Ajax, Oracle, Teradata</p>
+						<p><strong>Code</strong>:<br />HTML5, CSS3, Sass, Bootstrap, jQuery, Javascript, SQL, PHP</p>
 
 						<p><strong>Server</strong>:<br />Web Hosting, Domain, DNS, SSL, G Suite (formally Google Apps)</p>
 
-						<p><strong>Tools</strong>:<br />Adobe CC (PS, FW, DW), Sublime Text, Git, TextMate, HeidiSQL, Sequel Pro, MS SQL, Oracle SQL Dev, Teradata SQL Assistant, Visual Source Safe, cPanel, Plesk, Beanstalk, Office 365, Trello, Toggl, Basecamp</p>
+						<p><strong>Tools</strong>:<br />Adobe CC (PS,FW), Sublime Text, Git, HeidiSQL, Sequel Pro, cPanel, Plesk, Domain/DNS, BigCommerce, Beanstalk, Office 365, Paymo, Trello, Toggl, Basecamp, Google (Analytics, Tag Manager, Webmaster Tools)</p>
+
+						<p><strong>Archives</strong>:<br />
+						Dreamweaver, Flash, ColdFusion, Oracle, Teradata, TextMate, MS SQL, Oracle SQL Dev, Teradata SQL Assistant, Visual Source Safe  
+						</p>
 					</div>
 				</div>
 			</div>
