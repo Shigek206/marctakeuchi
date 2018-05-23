@@ -23,13 +23,13 @@
 
 						<p><strong>Key Achievements:</strong></p>
 						<ul>
-							<li><p>Lead the efforts in consolidating our director-level organization's 45 2nd-level and 1-level web sites into a functional based CMS (Content Management System) saving the organization $90,000/yr in web server space, while providing a one-stop-shop approach to our organization's products and services.</p></li>
+							<li><p>Led the efforts in consolidating our director-level organization's 45 2nd-level and 1-level web sites into a functional based CMS (Content Management System) saving the organization $90,000/yr in web server space, while providing a one-stop-shop approach to our organization's products and services.</p></li>
 							
-							<li><p>Marketed our CMS tool across CNO and successfully re-used and implemented our solution to other organizations throughout the CNO community.</p></li>
+							<li><p>Showcased and demonstrated our CMS tool across CNO and successfully re-used and implemented our solution to other organizations throughout the CNO community.</p></li>
 
-							<li><p>Participated and teamed with web focals across CNO in creating the branding of what have become the CNO web standards and successfully implemented these to all 2nd and 1st – level management web sites</p></li>
+							<li><p>Participated and collaborated with web focals across CNO in creating the branding of what have become the CNO web standards and successfully implemented these to all 2nd and 1st – level management web sites</p></li>
 							
-							<li><p>Lead the successful implementation of WSSO (Web Single Sign On) authentication into all our web applications.</p></li>
+							<li><p>Led the successful implementation of WSSO (Web Single Sign On) authentication into all our web applications.</p></li>
 						</ul>
 					</div>
 				</div>
