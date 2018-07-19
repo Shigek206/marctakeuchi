@@ -78,6 +78,7 @@ ul {
 
 		p {
 			color: $base-color; 
+			margin-bottom: 15px;
 		}
 	}
 }
@@ -576,6 +577,14 @@ ul {
 			@media (max-width: $screen-xs) {
 				margin: 0 0 20px;
 			}
+		}
+
+		span {
+			display: block;
+			font-family: 'Nothing You Could Do', cursive;
+			font-size: 22px;
+			font-weight: bold;
+			padding-bottom: 10px;
 		}
 	}
 
